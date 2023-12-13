@@ -1,0 +1,45 @@
+guests = ["gerrard", "jules", "lionel", "johovan"]
+print(f"{guests[0]}, I invite you to my celebration party.")
+print(f"{guests[1]}, I invite you to my celebration party.")
+print(f"{guests[2]}, I invite you to my celebration party.")
+print(f"{guests[3]}, I invite you to my celebration party.")
+print(guests)
+guests[-1] = "david"
+print(f"\n{guests[0]}, I invite you to my celebration party.")
+print(f"{guests[1]}, I invite you to my celebration party.")
+print(f"{guests[2]}, I invite you to my celebration party.")
+print(f"{guests[3]}, I invite you to my celebration party.")
+print(guests)
+print("\nBigger dinner table founded.")
+guests.insert(0, "pacifique")
+guests.insert(3, "eric")
+guests.append("irene")
+print(f"\n{guests[0]}, I invite you to my celebration party.")
+print(f"{guests[1]}, I invite you to my celebration party.")
+print(f"{guests[2]}, I invite you to my celebration party.")
+print(f"{guests[3]}, I invite you to my celebration party.")
+print(f"{guests[4]}, I invite you to my celebration party.")
+print(f"{guests[5]}, I invite you to my celebration party.")
+print(f"{guests[6]}, I invite you to my celebration party.")
+print(guests)
+print(f"\nI invited {len(guests)} peoples")
+print("\nTwo people for dinner is only now allowed to invite.")
+guest_one = guests.pop(0)
+
+print(f"Sorry, {guest_one}")
+guest_two= guests.pop(2)
+print(f"Sorry, guest_two")
+guest_three = guests.pop(2)
+print(f"Sorry, {guest_three}")
+guest_four = guests.pop(2)
+print(f"Sorry, {guest_four}")
+guest_five = guests.pop(2)
+print(f"Sorry, {guest_five}")
+
+print(f"{guests[0]}, You are still invited.")
+print(f"{guests[1]}, You are still invited.")
+
+del guests[1]
+del guests[0]
+
+print(guests)
